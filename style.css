@@ -1,0 +1,470 @@
+body {
+      background-image: url("images/dark-paths.png");
+     
+  }
+
+ul {
+    padding:1em;
+}
+
+.navbar {
+  height:10rem;
+  max-height:200px;
+  text-align:right;
+}
+
+.container-nav{
+  width:1280px;
+  max-width:100%;
+  margin:0 auto;
+}
+
+.navbar-brand{
+  text-align:center;
+}
+
+.navbar-brand img{
+  max-height:7rem;
+  width:auto;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url("images/computer.jpg");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.center-everything{
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.hero .hero-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: absolute;
+}
+
+.diamond-container{
+  position:relative; 
+  top:10vh;
+  padding-bottom:20vh;
+}
+
+.hero .title {
+    font-size:5rem;
+    font-family: 'IBM Plex Mono', monospace;
+    text-shadow: 7px 7px black;
+    
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.hero .subtitle {
+    font-size:3rem;
+    font-family: 'IBM Plex Mono', monospace;
+    text-shadow: 7px 7px black;
+    
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.githubButton {
+  color:white !important;
+  text-align: center;
+  min-width:200px;
+  width:25% !important;
+  font-size:30px !important;
+  background-color:orangered !important;
+  font-family: 'IBM Plex Mono', monospace;
+  box-shadow: 10px 10px 5px black;
+}
+
+.btn {
+  display: inline;
+  overflow-wrap: break-word !important;
+}
+
+.btn-rounded {
+  border-radius: 30px !important;
+}
+
+#AI {
+  float:left;
+  background-color:slategray;
+  border-color:slategray;
+}
+
+#Nasa {
+  float:right;
+  background-color:slategray;
+  border-color:slategray;
+}
+
+#patent {
+  background-color:slategray;
+  border-color:slategray;
+}
+
+
+
+.diamond{
+
+  width:550px;
+  height:550px;
+  max-width:100%;
+  max-height:100%;
+
+  border-radius:40px;
+
+  background: slategray;
+  transform: rotate(45deg);
+  position: relative;
+  margin:0 auto;
+  /* margin-top: 40px; */
+  overflow: hidden;
+  font-size:1.3rem;
+  
+  
+}
+
+.diamond .me {
+    width:40%;
+    border-radius:70%;
+    float:left;
+    margin:4%;
+    margin-top:0%;
+    max-width:250px;
+}
+
+.diamond:hover {
+transform: rotate(135deg);
+transition: .5s all;
+}
+
+/* .diamond-content:before {
+  transform: rotate(-135deg);
+  transition: .5s all;
+ 
+  }
+
+.diamond-content:hover {
+  transform: rotate(-135deg);
+  transition: .5s all;
+  
+  } */
+
+  /* .diamond-contentp:after {
+    display: none;
+    content: 'whatever it is you want to add';
+  } */
+
+.diamond-content{
+    position: absolute;
+    color: #fff;
+    transform: rotate(-45deg);
+    text-align: center;
+    /* width: 90%;
+    height: 80%; */
+    padding:8%;
+    overflow: hidden;
+    top: 15%;
+    right: 8%;
+    width: 90%;
+    height: 80%;
+    backface-visibility: hidden;
+    
+  }
+/* 
+.navbar-brand img {
+  position: absolute;
+} */
+
+#Who1, #Who2{
+  width:50%;
+}
+#Who2{
+  float:right;
+}
+
+.navbar-brand {
+ 
+  font-family: 'IBM Plex Mono', monospace;
+   
+    /* margin-bottom: 0;
+    vertical-align: middle;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    -webkit-transform: translate3d(0,0,0); */
+}
+
+#headerImage {
+  clear:both;
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+  width:100%;
+  min-width: 120%;
+  /* height:100%; */
+}
+
+/* #headerPic {
+  background-image: url("/images/computer.jpg");
+} */
+
+#mainName {
+  color:white;
+  position: absolute;
+  text-align: center;
+  top:40%;
+  /* right:40%;  */
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size:120px;
+  font-family: 'IBM Plex Mono', monospace;
+  text-shadow: 10px 10px black;
+  
+}
+
+#description {
+  color:white;
+  position: absolute;
+  text-align: center;
+  top:60%;
+  /* right:40%;  */
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size:50px;
+  font-family: 'IBM Plex Mono', monospace;
+  text-shadow: 5px 5px black;
+}
+
+
+.navbar-nav {
+  margin-left:auto;
+  text-align:right;
+}
+
+  /* .flip-card-inner {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    
+  }
+  
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateX(180deg);
+    
+  }
+
+ 
+  .flip-card-front, .flip-card-back {
+    backface-visibility: hidden;
+  }
+  
+   */
+  /* .flip-card-back { */
+    /* transform: rotateX(180deg);
+    backface-visibility: hidden; */
+    /* color:white;
+    position:relative;
+  } */
+
+
+
+  /* .flip-card-front {
+    backface-visibility: hidden;
+  } */
+
+
+  @media (min-width: 259px) and (max-width: 767px) {
+    /*          border-color:lightcyan;
+        border-style: solid;
+         */
+
+
+        /* #diamond-content{
+            left:5%;
+            top:2%;
+            font-size: 11px;
+            padding:0%;
+            margin:0%;
+            border:10px;
+          
+          }
+
+          #diamond .me {
+            width:50%;
+            margin-top:18%;
+        } */
+
+
+        #diamond {
+          position:absolute;
+          margin: 0 auto;
+        }
+
+        #bigContainer{
+          width:500%;
+        }
+
+        #mainName {
+          font-size:150px;
+          left:130%;
+          width:240%;
+        }
+        #description {
+          font-size:60px;
+          left:100%;
+          width:300%;
+        }
+        #githubButton {
+          font-size:70px;
+          left:150%;
+          width:200%;
+        }
+
+        #headerImage {
+          min-width: 1000px;
+          height:100%;
+        }
+          /* margin-bottom:20%; */
+        .navbar-brand img{
+          max-height:5rem;
+          width:auto;
+        }
+        .navbar{
+          height:5rem;
+        }
+
+        .diamond{
+          width:40vh;
+          height:40vh;
+          border-radius:40px;
+          font-size:1.6vh;
+        }
+
+        .diamond .me {
+            width:10vh;
+            border-radius:70%;
+            margin:4%;
+            margin-top:0%;
+            max-width:250px;
+        }
+         
+    
+    }
+
+
+ #bigContainer {
+     text-align:center;
+     display:inline-block;
+     padding:30%;
+     margin:0 auto;
+ }
+
+.card {
+  margin:auto;
+  font-size:20px;
+  /* text-align:center; */
+/* text-align:center;
+display:inline-block; */
+
+background: var(--main-color);
+  /* font-family: "dancing script", cursive; */
+  color: rgb( 121, 125, 127 );
+  /* letter-spacing: .5px;
+   */
+   /* margin-top: 40px; */
+
+}
+
+#WhoTo2{
+  float:right;
+}
+
+/* .card a {
+  display: inline;
+  padding:2%;
+  width:14%;
+} */
+
+#cardContainer {
+  /* left:25%; */
+  width:1000px;
+  max-width:100%;
+  margin:auto;
+  /* text-align:center; */
+  /* display:inline-block; */
+}
+
+.row{
+  padding-bottom:2vh;
+}
+
+.diamond-row{
+  padding-bottom:10;
+}
+
+footer {
+  position:absolute;
+  background-color:white;
+  width:100%;
+}
+
+footer .container-fluid{
+  max-width:1280px;
+  margin:auto;
+}
